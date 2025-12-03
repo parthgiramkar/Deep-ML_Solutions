@@ -1,0 +1,63 @@
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+ENV/
+
+# ---- Package distribution ----
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ---- Jupyter Notebook checkpoints ----
+.ipynb_checkpoints/
+
+# ---- IDE / Editor files ----
+.vscode/
+.idea/
+
+# ---- OS generated files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Environment / secrets ----
+.env
+*.env
+
+# ---- Python compiled libraries ----
+*.so
+
+# ---- Cache ----
+.cache/
+pytest_cache/
+__pypackages__/
+
+# ---- MyPy / Pyright ----
+.mypy_cache/
+.pyright/
+
+# ---- Coverage reports ----
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# ---- dotenv files ----
+.env.local
+.env.production
+.env.development
+
+# ---- Misc ----
+*.sqlite3
